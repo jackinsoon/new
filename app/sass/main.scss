@@ -1,0 +1,43 @@
+@import "variables-functions-and-mixins";
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.content {
+  flex: 1 0 auto;
+}
+.footer {
+  flex: 0 0 auto;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.content {
+  flex: 1 0 auto;
+  position: relative;
+}
+.footer {
+  flex: 0 0 auto;
+}
+
+
+@import 'media';
+@import "fonts";
+
+// ЭТО ВСЕ МЫ ПОДКЛЮЧАЕМ КАК <link rel="stylesheet" href="css/main.css">  И НИКАК ИНАЧЕ !
+
+
